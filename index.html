@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="calculator">
+          <div class="output">
+            <input type="text" id="screen">
+          </div>
+          <div class="buttons">
+            <button onclick="clearscreen()" class="click">AC</button>
+            <div class="row">
+              <button onclick="buttonclick(7)" class="buttonclick">7</button>
+              <button onclick="buttonclick(8)" class="buttonclick">8</button>
+              <button onclick="buttonclick(9)" class="buttonclick">9</button>
+              <button onclick="buttonclick('/')" class="buttonclick">/</button>
+            </div>
+            <div class="row">
+              <button onclick="buttonclick(4)" class="buttonclick">4</button>
+              <button onclick="buttonclick(5)" class="buttonclick">5</button>
+              <button onclick="buttonclick(6)" class="buttonclick">6</button>
+              <button onclick="buttonclick('*')" class="buttonclick">X</button>
+            </div>
+            <div class="row">
+              <button onclick="buttonclick(1)" class="buttonclick">1</button>
+              <button onclick="buttonclick(2)" class="buttonclick">2</button>
+              <button onclick="buttonclick(3)" class="buttonclick">3</button>
+              <button onclick="buttonclick('+')" class="buttonclick">+</button>
+            </div>
+            <div class="row">
+              <button onclick="buttonclick(0)" class="buttonclick">0</button>
+              <button onclick="buttonclick('.')" class="buttonclick">.</button>
+              <button onclick="equalClick()" class="buttonclick">=</button>
+              <button onclick="buttonclick('-')" class="buttonclick">-</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>

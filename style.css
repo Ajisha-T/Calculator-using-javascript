@@ -1,0 +1,33 @@
+.calculator {
+    width: 500px;
+    height: 625px;
+    background-color: rgb(82, 82, 83);
+    margin: left 200px;
+    margin-left: 30%;
+    margin-top: 15px;
+  }
+  #screen {
+    width: 80%;
+    height: 100px;
+    margin-top: 35px;
+    margin-left: 45px;
+    pointer-events: none;
+    background-color: rgb(230, 218, 218);
+    font-size: xx-large;
+  }
+  .buttonclick {
+    width: 60px;
+    height: 45px;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-top: 45px;
+    background-color:rgb(180, 180, 192)
+  }
+  .click{
+    width: 60px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 45px;
+    font-size: x-large;
+    background-color:rgb(15, 216, 82)
+  }
